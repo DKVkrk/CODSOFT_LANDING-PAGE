@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plane</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Enter The Your Plan Details</Details></h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="destination">Destination</label>
+                <input type="text" placeholder="Search...">
+              </div>
+              <div class="form-group">
+                <label for="selectactivities">Select Activities</label>
+                  <form>
+                    <select>
+                        <option value="option1">Select Your Activities</option>
+                      <option value="option1">Exploring Historical Sites</option>
+                      <option value="option2">Outdoor Adeventure</option>
+                      <option value="option3">Culinary Exploration</option>
+                      <option value="option3">Relaxing on Beaches</option>
+                      <option value="option3">Cultural Events and Festivals</option>
+                      <option value="option3">Wildlife Safaris</option>
+                      <option value="option3">Photography Expeditions:</option>
+                      <option value="option3">Shopping</option>
+
+
+
+                    </select>
+                  </form>
+            
+              </div>
+              <div class="form-group">
+                <label for="selectactivities">Set Your Budget</label>
+                  <form>
+                    <select>
+                        <option value="option1">Select Your Budget</option>
+                      <option value="option1">Rs 5000 to 7000</option>
+                      <option value="option2">Rs 7000 to 10000</option>
+                      <option value="option3">More than 10000 less than 50000</option>
+                      <option value="option3">1 lac to 5 lac</option>
+                      <option value="option3">5 lac to 20 lac</option>
+                      <option value="option3"> More than 50 lac</option>
+
+                    </select>
+                  </form>
+            
+              </div>
+              <label for="destination">Generate your plan</label>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Travelo File</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <section>
+        <nav>
+          <ul>   
+              <li><a href="index.html">Home</a></li>
+          </ul>
+      </nav>
+      </section>
+  <!-- <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      <strong class="mr-auto">last reaching time</strong>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a our message.
+  </div>
+</div> -->
+  </body>
+</html>

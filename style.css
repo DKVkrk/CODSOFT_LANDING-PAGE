@@ -1,0 +1,185 @@
+body{
+    background-color: white;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 130px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+nav ul li{
+    padding: 0px 28px;
+    font-size: 21px;
+}
+nav ul li a {
+    padding: 0px 28px;
+    font-size: 21px;
+text-decoration: none;
+color: aliceblue;}
+    nav ul li a:hover{
+        color: black;
+        background-color: aliceblue;
+        border-radius: 27px;
+        
+    
+    }
+
+nav ul li:hover{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 27px;
+    
+
+}
+.travel{
+    display: flex;
+    align-items: center;
+
+}
+.travel img{
+    width: 97px;
+    padding: 16px 18px;
+    border: 1px solid black;
+    border-radius: 98px;
+}
+#services-container{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    margin: 3px;
+    padding: 8px;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+/* Services section  */
+#services-container {
+    /* height: 344px;  */
+}
+
+#services-container::before {
+    content: "";
+    position: absolute;
+    background-color: #3b3a3a;
+    z-index: -1;
+    opacity: 0.2;
+    width: 100%;
+    height: 96%;
+}
+
+#services {
+    margin: 23px;
+    display: flex;
+
+}
+
+#services .box {
+    border: 2px solid #2e2b97;
+    padding: 34px;
+    margin: 3px 12px;
+    border-radius: 23px;
+    background-color: #8080806e;
+}
+
+#services .box img {
+    height: 140px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif',serif;
+}
+/* utitlity classses  */
+.h-primary {
+    font-family: 'Autour One', cursive;
+    font-size: 2.8rem;
+    padding: 25px 12px;
+    /* display: block; */
+    margin: 13.5px auto;
+    text-align: center;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 12px;
+    text-align:center;
+}
+/* footer  */
+footer {
+    background: black;
+    color: white;
+    padding: 11px 298px;
+}
+/* Cliet section  */
+#client-section {
+    height: 344px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-color: #3b3a3a;
+    z-index: -1;
+    opacity: 0.2;
+    width: 100%;
+    height: 60%;
+}
+
+.h-primary-center {
+    text-align: center;
+    margin: 28px auto;
+    padding: 25px 12px;
+    font-family: 'Autour One', cursive;
+    font-size: 2.8rem;
+}
+
+.client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item img {
+    height: 95px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 2px 22px;
+    /* width: 322px; */
+}
+
+#start{
+    display:flex ;
+
+}
+
+#start img{
+    height: 425px;
+    width: 753px;
+}
+#startwrite{
+    margin: 2px 4px;
+    padding: 4px;
+}
+
